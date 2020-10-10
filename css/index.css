@@ -1,0 +1,498 @@
+html, body {
+  height: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+#head {
+  height: 36px;
+  background: #b1b1b2; }
+  #head aside {
+    float: right;
+    height: 36px; }
+    #head aside a {
+      float: left;
+      line-height: 36px;
+      color: #fff;
+      padding-left: 20px; }
+    #head aside a:nth-of-type(1) {
+      font-size: 14px;
+      background: url(../images/dingwei.png) no-repeat center left; }
+    #head aside a:nth-of-type(2) {
+      font-size: 14px;
+      margin-left: 36px;
+      padding-right: 30px;
+      background: url(../images/kefu.png) no-repeat center left; }
+
+#head > a {
+  padding-left: 30px;
+  line-height: 36px;
+  float: left;
+  height: 36px;
+  color: #fff; }
+
+#nav {
+  min-height: 74px; }
+  #nav section:nth-child(1) {
+    height: 74px;
+    border-bottom: 1px solid #000; }
+    #nav section:nth-child(1) article:nth-of-type(1) > a {
+      float: left;
+      margin-right: 36px; }
+    #nav section:nth-child(1) article:nth-of-type(1) {
+      margin-top: 22px;
+      float: left;
+      margin-left: 44px; }
+      #nav section:nth-child(1) article:nth-of-type(1) ul {
+        float: left; }
+        #nav section:nth-child(1) article:nth-of-type(1) ul li {
+          padding: 0 10px;
+          float: left; }
+          #nav section:nth-child(1) article:nth-of-type(1) ul li a {
+            height: 52px;
+            display: block;
+            padding: 0 7px;
+            color: #000; }
+          #nav section:nth-child(1) article:nth-of-type(1) ul li a:hover {
+            border-bottom: 4px solid #000; }
+    #nav section:nth-child(1) article:nth-of-type(2) {
+      float: right;
+      margin: 21px 115px 0 0; }
+      #nav section:nth-child(1) article:nth-of-type(2) form {
+        float: left;
+        width: 140px;
+        height: 32px;
+        border: 1px solid #b1b1b1;
+        border-radius: 5px 5px 5px 5px;
+        margin-right: 44px; }
+        #nav section:nth-child(1) article:nth-of-type(2) form input {
+          padding-left: 4px;
+          color: #b1b1b1;
+          float: left;
+          height: 30px;
+          width: 96px;
+          border-radius: 5px 0px 0px 5px; }
+        #nav section:nth-child(1) article:nth-of-type(2) form button {
+          float: left;
+          height: 30px;
+          width: 35px;
+          border: none;
+          background: url(../images/sousuo.png) no-repeat left center; }
+      #nav section:nth-child(1) article:nth-of-type(2) aside {
+        float: left;
+        margin-right: 48px; }
+        #nav section:nth-child(1) article:nth-of-type(2) aside a {
+          padding: 0 4px;
+          float: left;
+          color: #000;
+          font-size: 14px; }
+        #nav section:nth-child(1) article:nth-of-type(2) aside a:nth-child(2) {
+          margin-top: 6px;
+          border-right: 1px solid #000; }
+        #nav section:nth-child(1) article:nth-of-type(2) aside a:nth-child(3) {
+          margin-top: 6px; }
+    #nav section:nth-child(1) article:nth-of-type(2) > a {
+      float: left;
+      position: relative; }
+      #nav section:nth-child(1) article:nth-of-type(2) > a span:nth-of-type(1) {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: #ff233e;
+        position: absolute;
+        top: -6px;
+        left: -10px;
+        font-size: 14px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 20px;
+        color: #fff; }
+      #nav section:nth-child(1) article:nth-of-type(2) > a .icon-gouwuche {
+        font-size: 25px;
+        color: #000; }
+      #nav section:nth-child(1) article:nth-of-type(2) > a span:nth-of-type(2) {
+        color: #000;
+        font-size: 14px; }
+  #nav section:nth-child(2) {
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    padding: 60px 0 60px 240px;
+    height: 470px;
+    border-bottom: 1px solid #000; }
+    #nav section:nth-child(2) article {
+      float: left;
+      width: 650px;
+      height: 340px;
+      border-right: 1px solid #000; }
+      #nav section:nth-child(2) article ul {
+        float: left;
+        margin-right: 100px; }
+        #nav section:nth-child(2) article ul li {
+          margin-bottom: 10px; }
+          #nav section:nth-child(2) article ul li a {
+            color: #000; }
+        #nav section:nth-child(2) article ul li:nth-child(1) {
+          margin-bottom: 40px; }
+    #nav section:nth-child(2) figure {
+      float: left; }
+      #nav section:nth-child(2) figure h3 {
+        margin-bottom: 34px; }
+      #nav section:nth-child(2) figure p a {
+        color: #000; }
+
+#banner {
+  width: 100%;
+  overflow: hidden;
+  height: 740px;
+  position: relative; }
+  #banner ol {
+    position: absolute;
+    top: 710px;
+    left: 50%;
+    z-index: 2; }
+    #banner ol li {
+      float: left;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.5);
+      margin: 0 5px; }
+    #banner ol .active {
+      background: #000;
+      position: relative; }
+  #banner ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5200px; }
+    #banner ul li {
+      width: 1700px;
+      height: 740px;
+      float: left; }
+      #banner ul li a img {
+        width: 1700px;
+        height: 100%; }
+
+#body1 {
+  margin-top: 15px;
+  height: 212px; }
+  #body1 aside {
+    width: 1120px;
+    margin: auto; }
+    #body1 aside a {
+      float: left;
+      width: 270px;
+      height: 212px;
+      padding: 20px 0 0 20px;
+      margin-left: 10px; }
+      #body1 aside a p {
+        color: #000;
+        font-weight: bold;
+        font-size: 14px;
+        padding-bottom: 1px; }
+      #body1 aside a span {
+        color: #000;
+        font-size: 20px; }
+    #body1 aside a:nth-child(1) {
+      margin-left: 0;
+      background: url(../images/p1.jpg) no-repeat;
+      background-size: 100%; }
+    #body1 aside a:nth-child(2) {
+      background: url(../images/p2.jpg) no-repeat;
+      background-size: 100%; }
+    #body1 aside a:nth-child(3) {
+      background: url(../images/p3.jpg) no-repeat;
+      background-size: 100%; }
+    #body1 aside a:nth-child(4) {
+      background: url(../images/p4.jpg) no-repeat;
+      background-size: 100%; }
+
+#body2 {
+  height: 490px;
+  margin-top: 25px; }
+  #body2 aside {
+    width: 1120px;
+    margin: 0 auto; }
+    #body2 aside a {
+      display: block;
+      background: url(../images/big4.jpg) no-repeat;
+      background-size: 100%;
+      width: 1110px;
+      height: 490px;
+      color: #fff; }
+      #body2 aside a span {
+        line-height: 46px;
+        text-align: center;
+        height: 46px;
+        width: 120px;
+        font-size: 18px;
+        display: block;
+        background: #000;
+        position: relative;
+        top: 230px;
+        left: 930px; }
+
+#body3 {
+  height: 490px;
+  margin-top: 25px; }
+  #body3 aside {
+    width: 1120px;
+    margin: 0 auto; }
+    #body3 aside a {
+      display: block;
+      background: url(../images/big5.jpg) no-repeat;
+      background-size: 100%;
+      width: 1110px;
+      height: 490px;
+      color: #fff; }
+      #body3 aside a span {
+        line-height: 46px;
+        text-align: center;
+        height: 46px;
+        width: 120px;
+        font-size: 18px;
+        display: block;
+        background: #000;
+        position: relative;
+        top: 230px;
+        left: 930px; }
+
+#ban1 {
+  margin-top: 28px; }
+  #ban1 figure {
+    width: 1120px;
+    margin: 0 auto; }
+    #ban1 figure figcaption {
+      text-align: center;
+      font-size: 32px;
+      font-weight: bolder; }
+    #ban1 figure aside {
+      width: 1120px;
+      height: 220px;
+      padding: 10px 0 0 35px; }
+      #ban1 figure aside a {
+        float: left;
+        display: block;
+        height: 212px;
+        padding: 0px 8px; }
+        #ban1 figure aside a img {
+          width: 218px; }
+        #ban1 figure aside a span {
+          display: block;
+          width: 250px;
+          text-align: center;
+          color: #6b6b6b;
+          margin: 0 auto;
+          margin: 5px 0; }
+        #ban1 figure aside a p {
+          margin: 0 auto;
+          height: 28px;
+          width: 100px;
+          color: #fff;
+          font-size: 14px;
+          background: #000;
+          text-align: center;
+          line-height: 28px; }
+
+#bot article > a {
+  float: left;
+  width: 590px;
+  height: 300px; }
+
+#bot article {
+  width: 1200px;
+  margin: 0 auto;
+  height: 660px; }
+  #bot article a p {
+    color: #000;
+    font-size: 30px;
+    padding-bottom: 1px;
+    color: #fff; }
+  #bot article a span {
+    color: #000;
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 2px solid #fff; }
+  #bot article a:nth-child(1) {
+    margin-left: 0;
+    background: url(../images/z1.jpg) no-repeat;
+    background-size: 100%;
+    margin: 20px 20px 0 0; }
+    #bot article a:nth-child(1) p {
+      position: relative;
+      top: 120px;
+      left: 470px; }
+    #bot article a:nth-child(1) span {
+      position: relative;
+      top: 120px;
+      left: 475px; }
+  #bot article a:nth-child(2) {
+    background: url(../images/z2.jpg) no-repeat;
+    background-size: 100%;
+    margin-top: 20px; }
+    #bot article a:nth-child(2) p {
+      position: relative;
+      top: 120px;
+      left: 470px;
+      width: 100px; }
+    #bot article a:nth-child(2) span {
+      position: relative;
+      top: 120px;
+      left: 515px; }
+  #bot article a:nth-child(3) {
+    margin: 20px 20px 0 0;
+    background: url(../images/z3.jpg) no-repeat;
+    background-size: 100%; }
+    #bot article a:nth-child(3) p {
+      position: relative;
+      top: 120px;
+      left: 435px; }
+    #bot article a:nth-child(3) span {
+      position: relative;
+      top: 120px;
+      left: 515px; }
+  #bot article aside {
+    width: 590px;
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    background: url(../images/z4.jpg) no-repeat;
+    background-size: 100%; }
+    #bot article aside a {
+      position: relative;
+      left: 25px; }
+      #bot article aside a p {
+        margin-bottom: 20px;
+        font-size: 20px;
+        width: 80px;
+        border-bottom: 2px solid #fff; }
+
+#bot > p {
+  margin: 0 auto;
+  width: 1150px;
+  height: 100px;
+  background: #000;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  font-size: 22px; }
+
+#foot {
+  height: 590px;
+  margin-top: 27px;
+  background: #e7e7e7; }
+  #foot section {
+    height: 84px;
+    border-bottom: 1px solid #000; }
+    #foot section article {
+      width: 360px;
+      height: 84px;
+      margin: 0 auto;
+      line-height: 84px; }
+      #foot section article aside img {
+        width: 46px; }
+      #foot section article aside span {
+        font-size: 26px;
+        color: #1d6dba; }
+      #foot section article aside:nth-child(1) {
+        float: left; }
+      #foot section article aside:nth-child(2) {
+        float: right; }
+  #foot figure {
+    width: 1180px;
+    margin: 0 auto; }
+    #foot figure aside:nth-child(1) {
+      padding-top: 16px;
+      float: left; }
+      #foot figure aside:nth-child(1) p {
+        font-size: 12px; }
+    #foot figure aside:nth-child(2) {
+      float: right;
+      padding: 16px 84px 0 0; }
+      #foot figure aside:nth-child(2) a {
+        margin-left: 38px; }
+        #foot figure aside:nth-child(2) a img {
+          height: 24px; }
+
+#foot > article {
+  width: 1180px;
+  height: 420px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000; }
+  #foot > article aside:nth-child(1) {
+    float: left;
+    width: 650px; }
+    #foot > article aside:nth-child(1) p {
+      padding: 40px 0; }
+      #foot > article aside:nth-child(1) p span {
+        font-size: 12px;
+        margin-right: 8px; }
+      #foot > article aside:nth-child(1) p img {
+        margin-left: 14px; }
+    #foot > article aside:nth-child(1) ul {
+      float: left;
+      margin-right: 100px; }
+      #foot > article aside:nth-child(1) ul li:nth-child(1) {
+        font-size: 12px; }
+      #foot > article aside:nth-child(1) ul li {
+        line-height: 30px; }
+        #foot > article aside:nth-child(1) ul li a {
+          font-size: 12px;
+          color: #545654; }
+        #foot > article aside:nth-child(1) ul li a:hover {
+          text-decoration: underline; }
+  #foot > article aside:nth-child(2) {
+    float: right;
+    width: 500px;
+    height: 400px; }
+    #foot > article aside:nth-child(2) p {
+      height: 30px;
+      width: 200px; }
+    #foot > article aside:nth-child(2) p:nth-child(1) a {
+      position: relative;
+      top: 52px;
+      left: 435px; }
+      #foot > article aside:nth-child(2) p:nth-child(1) a img {
+        float: left; }
+      #foot > article aside:nth-child(2) p:nth-child(1) a span {
+        float: left;
+        font-size: 12px;
+        color: #4d4d4d;
+        margin-left: 6px; }
+    #foot > article aside:nth-child(2) p:nth-child(2) span {
+      position: relative;
+      top: 86px;
+      left: 443px;
+      font-size: 14px;
+      font-weight: bold; }
+    #foot > article aside:nth-child(2) p:nth-child(3) span {
+      position: relative;
+      top: 87px;
+      left: 423px; }
+      #foot > article aside:nth-child(2) p:nth-child(3) span a {
+        float: left;
+        margin-left: 16px; }
+    #foot > article aside:nth-child(2) p:nth-child(4) span {
+      position: relative;
+      top: 95px;
+      left: 392px;
+      font-size: 12px; }
+    #foot > article aside:nth-child(2) form {
+      width: 350px;
+      position: relative;
+      top: 99px;
+      left: 180px; }
+      #foot > article aside:nth-child(2) form input {
+        float: left;
+        height: 24px;
+        width: 280px; }
+      #foot > article aside:nth-child(2) form button {
+        float: left;
+        height: 24px;
+        width: 40px;
+        border: none;
+        background: #484848 url(../images/em.png) no-repeat center; }

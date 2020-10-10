@@ -1,0 +1,349 @@
+html, body {
+  height: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+#head {
+  height: 36px;
+  background: #b1b1b2; }
+  #head aside {
+    float: right;
+    height: 36px; }
+    #head aside a {
+      float: left;
+      line-height: 36px;
+      color: #fff;
+      padding-left: 20px; }
+    #head aside a:nth-of-type(1) {
+      font-size: 14px;
+      background: url(../images/dingwei.png) no-repeat center left; }
+    #head aside a:nth-of-type(2) {
+      font-size: 14px;
+      margin-left: 36px;
+      padding-right: 30px;
+      background: url(../images/kefu.png) no-repeat center left; }
+
+#head > a {
+  padding-left: 30px;
+  line-height: 36px;
+  float: left;
+  height: 36px;
+  color: #fff; }
+
+#nav {
+  height: 74px;
+  border-bottom: 1px solid #000; }
+  #nav article:nth-of-type(1) > a {
+    float: left;
+    margin-right: 36px; }
+  #nav article:nth-of-type(1) {
+    margin-top: 22px;
+    float: left;
+    margin-left: 44px; }
+    #nav article:nth-of-type(1) ul {
+      float: left; }
+      #nav article:nth-of-type(1) ul li {
+        padding: 0 10px;
+        float: left; }
+        #nav article:nth-of-type(1) ul li a {
+          height: 52px;
+          display: block;
+          padding: 0 7px;
+          color: #000; }
+        #nav article:nth-of-type(1) ul li a:hover {
+          border-bottom: 4px solid #000; }
+  #nav article:nth-of-type(2) {
+    float: right;
+    margin: 21px 115px 0 0; }
+    #nav article:nth-of-type(2) form {
+      float: left;
+      width: 140px;
+      height: 32px;
+      border: 1px solid #b1b1b1;
+      border-radius: 5px 5px 5px 5px;
+      margin-right: 44px; }
+      #nav article:nth-of-type(2) form input {
+        padding-left: 4px;
+        color: #b1b1b1;
+        float: left;
+        height: 30px;
+        width: 96px;
+        border-radius: 5px 0px 0px 5px; }
+      #nav article:nth-of-type(2) form button {
+        float: left;
+        height: 30px;
+        width: 35px;
+        border: none;
+        background: url(../images/sousuo.png) no-repeat left center; }
+    #nav article:nth-of-type(2) aside {
+      float: left;
+      margin-right: 48px; }
+      #nav article:nth-of-type(2) aside a {
+        padding: 0 4px;
+        float: left;
+        color: #000;
+        font-size: 14px; }
+      #nav article:nth-of-type(2) aside a:nth-child(2) {
+        margin-top: 6px;
+        border-right: 1px solid #000; }
+      #nav article:nth-of-type(2) aside a:nth-child(3) {
+        margin-top: 6px; }
+  #nav article:nth-of-type(2) > a {
+    float: left;
+    position: relative; }
+    #nav article:nth-of-type(2) > a span:nth-of-type(1) {
+      display: block;
+      width: 20px;
+      height: 20px;
+      background: #ff233e;
+      position: absolute;
+      top: -6px;
+      left: -10px;
+      font-size: 14px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 20px;
+      color: #fff; }
+    #nav article:nth-of-type(2) > a .icon-gouwuche {
+      font-size: 25px;
+      color: #000; }
+    #nav article:nth-of-type(2) > a span:nth-of-type(2) {
+      color: #000;
+      font-size: 14px; }
+
+main {
+  padding: 96px 0 0 250px;
+  height: 900px; }
+  main #small {
+    float: left;
+    width: 650px;
+    height: 630px;
+    border: 1px solid black;
+    position: relative; }
+    main #small img {
+      width: 100%;
+      height: 100%; }
+    main #small #mark {
+      width: 300px;
+      height: 400px;
+      background-color: black;
+      opacity: 0.5;
+      filter: opacity=50;
+      position: absolute;
+      left: 0px;
+      top: 0px; }
+  main #big {
+    width: 510px;
+    height: 630px;
+    border: 1px solid black;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    top: 500;
+    left: 922px; }
+    main #big img {
+      position: absolute;
+      width: 1300px;
+      height: 1260px; }
+  main #mas {
+    margin-left: 22px;
+    float: left;
+    width: 510px;
+    height: 630px;
+    border: 1px solid black; }
+    main #mas p:nth-child(1) {
+      padding: 20px 0 7px 0;
+      font-size: 34px;
+      font-weight: bolder; }
+    main #mas p:nth-child(3) {
+      padding: 16px 0;
+      border-bottom: 1px solid #b1b1b2; }
+      main #mas p:nth-child(3) span:nth-of-type(1) {
+        font-size: 32px;
+        font-weight: bolder; }
+      main #mas p:nth-child(3) span:nth-of-type(2) {
+        font-size: 32px;
+        font-weight: bolder;
+        color: #ff233e; }
+    main #mas p:nth-child(4) {
+      padding: 16px 0 22px 0; }
+    main #mas aside:nth-of-type(1) {
+      height: 90px;
+      width: 90px;
+      border: 1px solid #b1b1b2;
+      margin-top: 10px; }
+      main #mas aside:nth-of-type(1) img {
+        width: 100%;
+        height: 100%; }
+    main #mas aside:nth-of-type(2) {
+      height: 40px;
+      margin-top: 22px; }
+      main #mas aside:nth-of-type(2) input {
+        font-size: 18px;
+        float: left;
+        height: 40px;
+        width: 332px;
+        border: 1px solid #b1b1b2; }
+      main #mas aside:nth-of-type(2) form {
+        border: 1px solid #b1b1b2;
+        float: right;
+        height: 40px;
+        width: 150px;
+        border-radius: 3px; }
+        main #mas aside:nth-of-type(2) form button {
+          border: none;
+          width: 38px;
+          height: 38px;
+          background: transparent; }
+        main #mas aside:nth-of-type(2) form button:nth-child(1) {
+          border-right: 1px solid #b1b1b2;
+          float: left; }
+        main #mas aside:nth-of-type(2) form p {
+          width: 72px;
+          height: 38px;
+          float: left;
+          border-right: 1px solid #b1b1b2;
+          text-align: center;
+          line-height: 38px;
+          margin: 0; }
+    main #mas p:nth-of-type(6) {
+      margin-bottom: 16px; }
+      main #mas p:nth-of-type(6) a {
+        color: #000;
+        text-decoration: underline; }
+    main #mas aside:nth-of-type(3) {
+      height: 42px; }
+      main #mas aside:nth-of-type(3) button {
+        height: 42px;
+        width: 242px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 3px; }
+      main #mas aside:nth-of-type(3) button:nth-child(1) {
+        float: left;
+        background: #123455; }
+      main #mas aside:nth-of-type(3) button:nth-child(2) {
+        float: right;
+        background: #ff233e; }
+    main #mas p:last-of-type {
+      margin-top: 10px;
+      float: right; }
+      main #mas p:last-of-type a:nth-child(1) {
+        margin-right: 26px; }
+
+#foot {
+  height: 590px;
+  background: #e7e7e7; }
+  #foot section {
+    height: 84px;
+    border-bottom: 1px solid #000; }
+    #foot section article {
+      width: 360px;
+      height: 84px;
+      margin: 0 auto;
+      line-height: 84px; }
+      #foot section article aside img {
+        width: 46px; }
+      #foot section article aside span {
+        font-size: 26px;
+        color: #1d6dba; }
+      #foot section article aside:nth-child(1) {
+        float: left; }
+      #foot section article aside:nth-child(2) {
+        float: right; }
+  #foot figure {
+    width: 1180px;
+    margin: 0 auto; }
+    #foot figure aside:nth-child(1) {
+      padding-top: 16px;
+      float: left; }
+      #foot figure aside:nth-child(1) p {
+        font-size: 12px; }
+    #foot figure aside:nth-child(2) {
+      float: right;
+      padding: 16px 84px 0 0; }
+      #foot figure aside:nth-child(2) a {
+        margin-left: 38px; }
+        #foot figure aside:nth-child(2) a img {
+          height: 24px; }
+
+#foot > article {
+  width: 1180px;
+  height: 420px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000; }
+  #foot > article aside:nth-child(1) {
+    float: left;
+    width: 650px; }
+    #foot > article aside:nth-child(1) p {
+      padding: 40px 0; }
+      #foot > article aside:nth-child(1) p span {
+        font-size: 12px;
+        margin-right: 8px; }
+      #foot > article aside:nth-child(1) p img {
+        margin-left: 14px; }
+    #foot > article aside:nth-child(1) ul {
+      float: left;
+      margin-right: 100px; }
+      #foot > article aside:nth-child(1) ul li:nth-child(1) {
+        font-size: 12px; }
+      #foot > article aside:nth-child(1) ul li {
+        line-height: 30px; }
+        #foot > article aside:nth-child(1) ul li a {
+          font-size: 12px;
+          color: #545654; }
+        #foot > article aside:nth-child(1) ul li a:hover {
+          text-decoration: underline; }
+  #foot > article aside:nth-child(2) {
+    float: right;
+    width: 500px;
+    height: 400px; }
+    #foot > article aside:nth-child(2) p {
+      height: 30px;
+      width: 200px; }
+    #foot > article aside:nth-child(2) p:nth-child(1) a {
+      position: relative;
+      top: 52px;
+      left: 435px; }
+      #foot > article aside:nth-child(2) p:nth-child(1) a img {
+        float: left; }
+      #foot > article aside:nth-child(2) p:nth-child(1) a span {
+        float: left;
+        font-size: 12px;
+        color: #4d4d4d;
+        margin-left: 6px; }
+    #foot > article aside:nth-child(2) p:nth-child(2) span {
+      position: relative;
+      top: 86px;
+      left: 443px;
+      font-size: 14px;
+      font-weight: bold; }
+    #foot > article aside:nth-child(2) p:nth-child(3) span {
+      position: relative;
+      top: 87px;
+      left: 423px; }
+      #foot > article aside:nth-child(2) p:nth-child(3) span a {
+        float: left;
+        margin-left: 16px; }
+    #foot > article aside:nth-child(2) p:nth-child(4) span {
+      position: relative;
+      top: 95px;
+      left: 392px;
+      font-size: 12px; }
+    #foot > article aside:nth-child(2) form {
+      width: 350px;
+      position: relative;
+      top: 99px;
+      left: 180px; }
+      #foot > article aside:nth-child(2) form input {
+        float: left;
+        height: 24px;
+        width: 280px; }
+      #foot > article aside:nth-child(2) form button {
+        float: left;
+        height: 24px;
+        width: 40px;
+        border: none;
+        background: #484848 url(../images/em.png) no-repeat center; }
